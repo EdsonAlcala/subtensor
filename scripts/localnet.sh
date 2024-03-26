@@ -35,9 +35,9 @@ alice_start=(
 	--alice
 	--port 30334
 	--ws-port 9946
-	--ws-external
 	--rpc-port 9934
-	--rpc-external
+	--unsafe-rpc-external 
+	--unsafe-ws-external
 	--validator
 	--rpc-cors=all
 	--allow-private-ipv4
@@ -51,9 +51,9 @@ bob_start=(
 	--bob
 	--port 30335
 	--ws-port 9947
-	--ws-external
 	--rpc-port 9935
-	--rpc-external
+	--unsafe-rpc-external 
+	--unsafe-ws-external
 	--validator
 	--allow-private-ipv4
 	--discover-local
